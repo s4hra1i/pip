@@ -14,7 +14,7 @@
 | PCB design | KiCad |
 | Simulation | Wokwi, where the required components are supported |
 | Unit testing | Native C++ tests on a laptop |
-| Timekeeping | Pet ages while powered on. The physical switch pauses it. |
+| Timekeeping | Pet ages while powered on and the physical switch pauses it. |
 | Power | Choose a battery after measuring power consumption |
 
 ## Why the ATtiny85?
