@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build and run tests
         run: |
-          g++ -std=c++17 -Wall -Wextra -Ifirmware/src/core firmware/src/core/pet.cpp test/test_pet.cpp -o test_pet
+         g++ -std=c++17 -Wall -Wextra -Isrc src/pet.cpp test/test_pet.cpp -o test_pet
           ./test_pet
